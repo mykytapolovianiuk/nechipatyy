@@ -16,7 +16,7 @@ const Home = () => {
   useEffect(() => {
     const loadModels = async () => {
       try {
-        const response = await fetch('./src/data/models.json')
+        const response = await fetch('/data/models.json')
         const data = await response.json()
         setModels(data)
         setFilteredModels(data)

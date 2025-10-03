@@ -20,7 +20,7 @@ const ModelPage = () => {
   useEffect(() => {
     const loadModel = async () => {
       try {
-        const response = await fetch('./src/data/models.json')
+        const response = await fetch('/data/models.json')
         const models = await response.json()
         const foundModel = models.find((m: Model) => m.id === parseInt(id || '0'))
         setModel(foundModel || null)

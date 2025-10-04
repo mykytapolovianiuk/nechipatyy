@@ -1,4 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import AppRouter from './routes/AppRouter'
 import ErrorBoundary from './components/common/ErrorBoundary/ErrorBoundary'
 import ScrollToTop from './components/common/ScrollToTop/ScrollToTop'
@@ -11,6 +12,7 @@ function App() {
         <DevToolsProtection />
         <ScrollToTop />
         <AppRouter />
+        <Analytics />
       </BrowserRouter>
     </ErrorBoundary>
   )

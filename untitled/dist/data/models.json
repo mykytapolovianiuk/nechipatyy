@@ -169,9 +169,9 @@
     "additionalInfo": "Оплата криптой",
     "prices": {
       "apartment": {
-        "oneHour": 10000,
-        "twoHours": 20000,
-        "night": 40000
+        "oneHour": 5500,
+        "twoHours": 9000,
+        "night": 15000
       },
       "outcall": {
         "oneHour": null,

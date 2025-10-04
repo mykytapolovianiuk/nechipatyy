@@ -174,7 +174,7 @@
         "night": 20000
       },
       "outcall": {
-        "oneHour": null,
+        "oneHour": 7500,
         "twoHours": 15000,
         "night": 27000,
         "anal": 2000

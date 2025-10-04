@@ -4,7 +4,7 @@
     "name": "Настенька",
     "age": 21,
     "location": "Москва",
-    "price": 7000,
+    "price": 9000,
     "description": "Привет мальчики работаю на выезд. Приглашаю в гости к себе, выезжаю в любой район, такого минета как умею я, ты не увидешь нигде)",
     "photos": [
       "/assets/models/nastya-moscow/1.jpg",
@@ -51,14 +51,14 @@
     "additionalInfo": "Оплата криптой",
     "prices": {
       "apartment": {
-        "oneHour": 7000,
-        "twoHours": 14000,
-        "night": 30000
+        "oneHour": 9000,
+        "twoHours": 18000,
+        "night": 40000
       },
       "outcall": {
         "oneHour": null,
-        "twoHours": 18000,
-        "night": 40000,
+        "twoHours": 24000,
+        "night": 50000,
         "anal": 2000
       }
     },
